@@ -1,0 +1,12 @@
+<!-- data: src/adviceGenerator.js -->
+<div class="h-full flex items-center justify-center" x-data="adviceGenerator">
+    <div class="p-8 mx-4 rounded-xl bg-dark-gray-blue max-w-lg">
+        <h1 class="mb-5 text-xs uppercase text-medium-aqua text-center tracking-[3px]">Advice #<span x-text="id"></span></h1>
+
+        <blockquote class="text-lg text-light-cyan text-center">“<span x-text="advice">Roll the dice for your advice</span>”</blockquote>
+        <div class="after:block after:my-8 after:w-full after:h-6 after:bg-[url(/pattern-divider-mobile.svg)] md:after:bg-[url(/pattern-divider-desktop.svg)] after:bg-no-repeat after:bg-center"></div>
+        <div class="flex justify-center relative">
+            <button @click="getAdvice" class="w-16 h-16 rounded-full bg-neon-green absolute hover:animate-spin hover:shadow-neon transition-shadow after:block after:w-full after:h-full after:bg-[url(/icon-dice.svg)] after:bg-center after:bg-no-repeat"></button>
+        </div>
+    </div>
+</div>
