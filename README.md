@@ -1,23 +1,41 @@
-# AlpineJS + TailwindCSS + Vite starter
+# Frontend Mentor - Advice generator app solution
 
-Use this package if you want to quickly setup a Vite based project that utilizes Alpine for UI reactivity and Tailwind. 
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This project was inspired by [datengenossen/tailwindcss-vite](https://github.com/datengenossen/tailwindcss-vite).
+## Table of contents
 
-## Quick Setup
-```
-npx degit jkulig/alpine-tailwind-vite my-project
-cd my-project
-yarn 
-yarn dev       
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## Links
-- [AlpineJS](https://alpinejs.dev/)
-- [Tailwind](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
+## Overview
 
-Feel free to contribute!
+### The challenge
 
-Enjoy!!!
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: https://github.com/jkulig/advice-generator
+- Live Site URL: https://jkulig.github.io/advice-generator/
+
+## My process
+
+### Built with
+
+- Alpine
+- Tailwind
+- Vite
